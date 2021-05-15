@@ -133,7 +133,7 @@ document.addEventListener('keydown', event => {
   keyListener('KeyN', btnNew, newGame);
   if (event.code === 'KeyA') {
     btnRules.classList.toggle('active');
-    rulesEl.classList.toggle('hidden');
+    listKeys.classList.toggle('hidden');
   }
   if (event.code === 'KeyC') {
     btnKeys.classList.toggle('active');
