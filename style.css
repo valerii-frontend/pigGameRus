@@ -103,7 +103,7 @@ main {
   font-size: calc(64px + 12 * ((100vw - 320px) / (1920 - 320)));
   font-weight: 700;
   color: #ec4b50;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .player--active {
   background-color: rgba(255, 255, 255, 0.6);
