@@ -270,9 +270,9 @@ main {
   }
   .player {
     padding: 0;
+    justify-content:space-around;
   }
   .current {
-    margin-top: 80px;
     padding: 4px;
   }
   .dice {
