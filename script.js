@@ -132,12 +132,14 @@ document.addEventListener('keydown', event => {
   keyListener('KeyR', btnRoll, roll);
   keyListener('KeyN', btnNew, newGame);
   if (event.code === 'KeyA') {
-    btnRules.classList.toggle('active');
     rulesEl.classList.toggle('hidden');
+    btnRules.classList.toggle('active');
+    
   }
   if (event.code === 'KeyC') {
+       listKeys.classList.toggle('hidden');
     btnKeys.classList.toggle('active');
-    listKeys.classList.toggle('hidden');
+ 
   }
 });
 
